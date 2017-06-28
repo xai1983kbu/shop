@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
-from orders import views
+from . import views
 
 urlpatterns = [
-    # url(r'^landing123/', views.landing, name='landing'),
+    url(r'^basket_adding/$', views.basket_adding, name='basket_adding'),
 ]
